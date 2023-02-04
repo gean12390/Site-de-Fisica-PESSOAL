@@ -1,0 +1,71 @@
+/*oq é um satélite*/
+.titulo-OES{
+	font-weight: normal;
+	color: pink;
+	position: absolute;
+    right: 0px;
+    left: 70px;
+    top: 20px;
+    font-family: 'titulo', cursive;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	position: fixed;top: 15px;
+	font-size: 72px;
+}
+.font-OES{
+	top: 200px;
+	left: 20px;
+	margin-right: 20px;
+	font-size: 25px;
+	margin-bottom: 0px;
+    margin-top: 0px; 
+}
+
+.satelite-1{
+
+	position: absolute;
+    top: 400px;
+    width: 600px;
+    height: 400px;
+    left: 300px;
+}
+/*final oq é um satélite*/
+
+@media only screen and (min-width: 250px) and (max-width: 450px){
+
+	.titulo-OES{
+		position: absolute;
+		top: 15px;
+		left: 0px;
+		font-family: 'titulo', cursive;
+		 font-size: 50px; 
+		margin-bottom: 0px;
+		margin-top: 0px;
+		text-align: center;
+	}
+	.font-OES{
+		text-align: center;position: absolute;
+		top: 200px;
+		left: 20px;
+		margin-right: 20px;
+		font-size: 23px;
+		font-family: 'corpo', sans-serif;
+		color: white;
+		margin-bottom: 0px;
+		margin-top: 0px; 
+		text-align: justify;
+	}
+	
+	.satelite-1{
+
+		left: 0px;
+    right: 0px;
+    top: 570px;
+    width: 320px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+	}
+
+}

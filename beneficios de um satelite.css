@@ -1,0 +1,172 @@
+.titulo-bdms{
+
+    font-weight: normal;
+	color: pink;
+	position: absolute;
+    right: 0px;
+    left: 30px;
+    top: 20px;
+    font-family: 'titulo', cursive;
+    text-align: center;
+    font-size: 50px;
+
+}
+.texto-1{
+    position: absolute;
+        top: 240px;
+        left: 0px;
+        text-indent: 30;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 25px;
+}
+.texto-2{
+    position: absolute;
+    top: 570px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+.play, .play-2{
+    position: absolute; 
+    top: 650px;
+    width: 0px;
+    font-size: 30px;
+    left: 100px;
+    font-weight: bolder;
+}
+
+.play-2{
+
+font-size: 0px;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 450px){
+    .titulo-bdms{
+
+        font-weight: normal;
+        color: pink;
+        position: absolute;
+        font-family: 'titulo', cursive;
+        text-align: center;
+        font-size: 50px;
+        left: 0px;
+        top: 0px;
+        margin: 0px;
+    
+    }
+
+    .texto-2{
+        position: absolute;
+        top: 1320px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+
+    .play{
+        position: absolute; 
+        top: 1490px;
+        width: 0px;
+        font-size: 0px;
+       
+    }
+
+    .play-2{
+        position: absolute; 
+        top: 1490px;
+        width: 0px;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 405px) and (max-width: 409px){
+
+    .texto-2{
+        position: absolute;
+        top: 1400px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+
+    .play{
+        position: absolute; 
+        top: 1590px;
+        width: 0px;
+        font-size: 0px;
+        left: 100px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .play-2{
+
+        position: absolute; 
+        top: 1590px;
+        width: 0px;
+        font-size: 50px;
+        left: 100px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 369px){
+
+    .texto-2{
+        position: absolute;
+        top: 1600px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+
+    .play{
+        position: absolute; 
+        top: 1790px;
+        width: 0px;
+        font-size: 0px;
+        left: 100px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .play-2{
+        position: absolute; 
+        top: 1790px;
+        width: 0px;
+        font-size: 50px;
+        left: 100px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 389px){
+
+    .texto-2{
+        position: absolute;
+        top: 1550px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+
+    .play{
+        position: absolute; 
+        top: 1720px;
+        width: 0px;
+        font-size: 0px;
+        left: 100px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .play-2{
+        position: absolute; 
+        top: 1720px;
+        width: 0px;
+        font-size: 50px;
+        left: 100px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+}
