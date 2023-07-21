@@ -369,3 +369,14 @@ div{
 
 
 }
+
+@media only screen and (min-width: 393px) and (max-width:851px){
+.texto-9{
+    top: 3600px;
+}
+.texto-10{
+    top: 3655px;
+}
+
+
+}
