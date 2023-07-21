@@ -170,3 +170,17 @@ font-size: 0px;
         margin-bottom: 10px;
     }
 }
+
+@media only screen and (min-width: 393px) and (max-width: 851px){
+    .texto-2{ 
+        position: absolute; 
+        top: 1480px;
+}
+
+    .play{
+        top: 1650px;
+}
+    .play-2{
+        top: 1650px;
+}
+}
